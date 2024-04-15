@@ -1,4 +1,5 @@
 import '../../../../src/index.css';
+import Button from '../../elements/Button/Button';
 function Header() {
     return(    
       <header>
@@ -18,11 +19,7 @@ function Header() {
               </ul>
             </nav>
 
-            <div className="btn-contato">
-              <a href="#">
-                <button>Contato</button>
-              </a>
-            </div>
+            <Button>Contato</Button>
         </div>
       </header>
     )
