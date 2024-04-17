@@ -8,13 +8,14 @@ function Top() {
                     <div className="flex">
                         <div className="text-site">
                             <h1>Analista de Sistemas</h1>
-                            <p>Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e programação.</p>
+                            <p className="inicio">Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por </p>
+                            <p className="continue">tecnologia, programação e inovação!</p>
                             <Button>Entre em contato</Button>
                         </div>
+
                         <div className="avatar">
                             <img id="avatar" src="./public/images/avatar.jpg" alt="avatar" />
                         </div>
-
                     </div>
                 </div>
 

@@ -14,7 +14,7 @@ body {
 
 .interface {
     max-width: 1280px;
-    margin: 0 auto; 
+    margin: 0 auto;
     color: #fff;
 }
 
@@ -23,45 +23,45 @@ body {
     height: 60px;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
 /* Estilos do Header */
-header{
+header {
     padding: 40px 4%;
 }
 
-header > .interface{
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header a{
+header a {
     color: #7d7d7d;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
-header a:hover{
+header a:hover {
     color: #fff;
     transform: scale(1.05);
 }
 
 
-nav{
+nav {
     list-style: none;
     display: inline-block;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     padding: 0 45px;
 }
 
-.btn-contato button{
+.btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 400;
@@ -71,26 +71,40 @@ nav ul li{
     cursor: pointer;
 }
 
-.btn-contato button:hover{
-    box-shadow: 0px 0px 8px #2b67b5;
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #398af3a5;
+    transform: scale(1.05);
+    transition: .2s;
 }
 
 /* Topo do Site */
-#avatar{
+#avatar {
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    margin-right: 30px;
 }
 
-.topo-do-site{
-    padding: 40px 4% ;
+.topo-do-site {
+    padding: 40px 4%;
 }
 
-.text-site {
-    padding: 20px;
+.text-site h1 {
+    font-size: 2.5rem;
 }
 
-.text-site p{
-    padding-bottom: 20px;
+p.inicio {
+    margin-top: 10px;
+    padding-right: 150px;
 }
 
+p.continue{
+    margin-bottom: 30px;
+}
+
+
+.flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
