@@ -9,7 +9,7 @@ function Top() {
                         <div className="text-site">
                             <h1>Analista de Sistemas</h1>
                             <p className="inicio">Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por </p>
-                            <p className="continue">tecnologia, programação e inovação!</p>
+                            <p className="continue">tecnologia, programação e inovação<span>!</span></p>
                             <Button>Entre em contato</Button>
                         </div>
 

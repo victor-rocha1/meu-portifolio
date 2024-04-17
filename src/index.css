@@ -93,6 +93,11 @@ nav ul li {
     font-size: 2.5rem;
 }
 
+.text-site span{
+    color: #3989f3;
+    font-weight: 500;
+}
+
 p.inicio {
     margin-top: 10px;
     padding-right: 150px;
