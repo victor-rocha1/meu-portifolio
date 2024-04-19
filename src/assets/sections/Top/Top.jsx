@@ -1,4 +1,4 @@
-import Button from "../../elements/Button/Button"
+import Button from "../../elements/Button/Button.jsx"
 
 function Top() {
     return (
