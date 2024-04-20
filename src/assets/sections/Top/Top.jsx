@@ -1,3 +1,4 @@
+import "./top.css";
 import Button from "../../elements/Button/Button.jsx"
 
 function Top() {

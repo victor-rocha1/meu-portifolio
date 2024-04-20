@@ -1,3 +1,4 @@
+import "./header.css";
 import '../../../../src/index.css';
 import Button from '../../elements/Button/Button';
 function Header() {

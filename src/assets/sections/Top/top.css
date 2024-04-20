@@ -1,0 +1,35 @@
+#avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.topo-do-site {
+    padding: 40px 4%;
+}
+
+.text-site h1 {
+    font-size: 2.5rem;
+}
+
+.text-site span{
+    color: #3989f3;
+    font-weight: 500;
+}
+
+p.inicio {
+    margin-top: 10px;
+    padding-right: 150px;
+}
+
+p.continue{
+    margin-bottom: 30px;
+}
+
+
+.flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
