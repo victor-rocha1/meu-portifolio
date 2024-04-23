@@ -1,5 +1,5 @@
 import "./top.css";
-import Button from "../../elements/Button/Button.jsx"
+import Button from "../../components/Button/Button.jsx"
 
 function Top() {
     return (

@@ -1,6 +1,6 @@
 import "./header.css";
 import '../../../../src/index.css';
-import Button from '../../elements/Button/Button';
+import Button from '../../components/Button/Button';
 function Header() {
     return(    
       <header>
