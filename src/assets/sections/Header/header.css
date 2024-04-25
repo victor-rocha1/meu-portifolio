@@ -9,7 +9,7 @@ header>.interface {
 }
 
 header a {
-    color: #7d7d7d;
+    color: var(--gray);
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -29,20 +29,4 @@ nav {
 nav ul li {
     display: inline-block;
     padding: 0 45px;
-}
-
-.btn-contato button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #3989f3;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-.btn-contato button:hover {
-    box-shadow: 0px 0px 8px #398af3a5;
-    transform: scale(1.05);
-    transition: .2s;
 }

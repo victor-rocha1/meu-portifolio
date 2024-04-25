@@ -13,8 +13,8 @@
     font-size: 2.5rem;
 }
 
-.text-site span{
-    color: #3989f3;
+.text-site span {
+    color: var(--blue);
     font-weight: 500;
 }
 
@@ -23,7 +23,7 @@ p.inicio {
     padding-right: 150px;
 }
 
-p.continue{
+p.continue {
     margin-bottom: 30px;
 }
 
