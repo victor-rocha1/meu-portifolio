@@ -6,7 +6,7 @@ function Specialties() {
         <div className="specialities">
             <section className="especialidades">
                 <div className="interface">
-                    <Title />
+                    <Title text="MINHAS " spantext="ESPECIALIDADES"/>
                     <div className="flex">
                         <div className="box">
                             <i class="bi bi-code-square"></i>

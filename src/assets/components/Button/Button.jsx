@@ -1,9 +1,9 @@
-import React from 'react';
-import './button.css';
+import React from "react";
+import "./button.css";
 
-function Button({ children }) {
+function Button({ children, className }) {
   return (
-    <div className="btn-contato">
+    <div className={`btn-contato ${className}`}>
       <a href="#">
         <button>{children}</button>
       </a>

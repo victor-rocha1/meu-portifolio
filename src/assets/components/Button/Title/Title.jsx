@@ -1,10 +1,10 @@
 import React from 'react';
 import "./title.css";
 
-const Title = ({ text }) => {
+const Title = ({ text, spantext }) => {
   return(
-    <h2 className='titleh'>MINHAS 
-      <span className='titles'> ESPECIALIDADES.</span>
+    <h2 className='titleh'>{text} 
+      <span className='titles'> {spantext}</span>
     </h2>
   )
 };
