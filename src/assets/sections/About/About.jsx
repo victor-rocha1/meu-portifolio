@@ -1,5 +1,5 @@
 import Button from '../../components/Button/Button';
-import Title from '../../components/Button/Title/Title';
+import Title from '../../components/Title/Title';
 import './about.css';
 
 function About() {
@@ -12,7 +12,7 @@ function About() {
                     </div>
 
                     <div className="txt-about">
-                        <Title text="PRAZER, " spantext="SOU VICTOR ROCHA."/>
+                        <Title text="PRAZER, SOU" spantext=" VICTOR ROCHA."/>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat possimus distinctio ex tenetur, blanditiis temporibus cupiditate autem, rem pariatur at iste facere incidunt officia alias recusandae deleniti aperiam provident. Totam!</p>
 

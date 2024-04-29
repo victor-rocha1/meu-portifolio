@@ -1,4 +1,4 @@
-import Title from "../../components/Button/Title/Title.jsx";
+import Title from "../../components/Title/Title.jsx";
 import "./specialties.css";
 
 function Specialties() {

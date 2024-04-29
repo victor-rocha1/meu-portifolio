@@ -1,0 +1,10 @@
+.projects{
+    padding: 80px 4%;
+    box-shadow: 0 0 20px 6px var(--shadownwhite);
+}
+
+.img-project{
+    width: 360px;
+    height: 460px;
+    background-color: var(--blue);
+}
