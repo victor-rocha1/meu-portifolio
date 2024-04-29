@@ -1,15 +1,17 @@
 import "./projects.css"
 import Title from "../../components/Title/Title.jsx";
+import ImgProject from "../../components/ImgProject/ImgProject.jsx";
 
 function Projects() {
+    const imgSpace = './public/images/VRSpaceX.png';
     return (
         <section className="projects">
             <div className="interface">
                 <Title text="MEUS " spantext="PROJETOS" />
                 <div className="flex">
-                    <div className="img-project"></div>
-                    <div className="img-project"></div>
-                    <div className="img-project"></div>
+                    <ImgProject img="./public/images/VRSpaceX.png"/>
+                    <ImgProject img="./public/images/VRSpaceX.png"/>
+                    <ImgProject img="./public/images/VRSpaceX.png"/>
                 </div>
             </div>
         </section>

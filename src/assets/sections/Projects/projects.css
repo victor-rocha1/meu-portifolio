@@ -3,6 +3,10 @@
     box-shadow: 0 0 20px 6px var(--shadownwhite);
 }
 
+.projects.flex{
+    
+}
+
 .img-project{
     width: 360px;
     height: 460px;
