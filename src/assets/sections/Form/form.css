@@ -5,19 +5,18 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
 }
 
 .form input,
 .form textarea {
-    width: 100%;
-    background-color: var(--shadowngray);
-    border: 0;
-    padding: 20px 15px;
-    border-radius: 10px;
-    font-size: 18px;
-    color: #fff;
-    transition: .5s;
+  width: 100%;
+  background-color: var(--shadowngray);
+  border: 0;
+  padding: 20px 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+  transition: .5s;
 }
 
 .form textarea {
@@ -41,4 +40,14 @@
 .form textarea:focus {
     box-shadow: 0px 0px 8px var(--blue);
     outline: none;
+}
+
+.form input.invalid,
+.form textarea.invalid {
+  box-shadow: 0px 0px 8px var(--red);
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
 }
