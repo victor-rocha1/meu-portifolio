@@ -21,7 +21,7 @@
 
 .img-project:hover{
     background-position: 100% 100%;
-    box-shadow: 0 0 25px var(--shadowblue);
+    box-shadow: 0 0 25px var(--blue);
     transition: background-position 8s, box-shadow 0.4s; /
 }
 
