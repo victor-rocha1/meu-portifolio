@@ -9,9 +9,9 @@ function Projects() {
             <div className="interface">
                 <Title text="MEUS " spantext="PROJETOS" />
                 <div className="flex">
-                    <ImgProject img="./public/images/VRSpaceX.png"/>
-                    <ImgProject img="./public/images/VRSpaceX.png"/>
-                    <ImgProject img="./public/images/VRSpaceX.png"/>
+                    <ImgProject img="./public/images/VRSpaceX.png" text="VRSpaceX"/>
+                    <ImgProject img="./public/images/VRSpaceX.png" text="VRSpaceX"/>
+                    <ImgProject img="./public/images/VRSpaceX.png" text="VRSpaceX"/>
                 </div>
             </div>
         </section>
