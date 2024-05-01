@@ -1,8 +1,9 @@
 :root {
   --blue: #3989f3;
-  --lightblue: hsl(214, 94%, 59%);
+  --lightblue: #3489f9;
   --shadowblue: #398af36a;
   --gray: #7d7d7d;
   --shadownwhite:#ffffff1d;
   --shadown:#000000b8;
+  --shadowngray: #ffffff07;
 }
