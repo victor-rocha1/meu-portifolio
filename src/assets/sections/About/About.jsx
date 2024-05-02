@@ -3,6 +3,7 @@ import Title from '../../components/Title/Title';
 import './about.css';
 
 function About() {
+    const socialIcons = ['instagram', 'github', 'linkedin'];
     return (
         <section className='about'>
             <div className="interface">
@@ -18,7 +19,7 @@ function About() {
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit unde saepe repudiandae vitae tempora. Nostrum nulla soluta a eligendi, laboriosam illo accusamus, quo dolores neque iste inventore vel sit!</p>
 
-                        <Icons size="2rem"/> 
+                        <Icons icons={socialIcons} size="2.5rem" /> 
                     </div>
                 </div>
             </div>
