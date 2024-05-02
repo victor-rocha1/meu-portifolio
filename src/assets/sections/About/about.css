@@ -22,28 +22,3 @@
 .s {
     color: var(--blue);
 }
-
-.link-social {
-    color: var(--blue);
-    font-size: 100px;
-    text-decoration: none;
-    display: flex;
-    justify-content: flex-end;
-    gap: 30px;
-    align-items: center;
-    cursor: pointer;
-    background-color: transparent;
-}
-
-
-.link-social a {
-    color: var(--lightblue);
-    font-size: 2rem;
-    text-decoration: none;
-    transition: transform 0.2s ease;
-}
-
-.link-social a:hover {
-    transform: scale(1.2);
-}
-

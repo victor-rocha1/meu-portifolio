@@ -1,5 +1,4 @@
-import Button from '../../components/Button/Button/Button.jsx';
-import Links from '../../components/Links/Links.jsx';
+import Icons from '../../components/Icons/Icons.jsx';
 import Title from '../../components/Title/Title';
 import './about.css';
 
@@ -19,7 +18,7 @@ function About() {
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit unde saepe repudiandae vitae tempora. Nostrum nulla soluta a eligendi, laboriosam illo accusamus, quo dolores neque iste inventore vel sit!</p>
 
-                        <Links />
+                        <Icons size="2rem"/> 
                     </div>
                 </div>
             </div>
