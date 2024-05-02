@@ -1,4 +1,5 @@
-import Button from '../../components/Button/Button';
+import Button from '../../components/Button/Button/Button.jsx';
+import Links from '../../components/Links/Links.jsx';
 import Title from '../../components/Title/Title';
 import './about.css';
 
@@ -18,12 +19,7 @@ function About() {
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit unde saepe repudiandae vitae tempora. Nostrum nulla soluta a eligendi, laboriosam illo accusamus, quo dolores neque iste inventore vel sit!</p>
 
-                        <div className="link-social">
-                            <a href="#"><i className="bi bi-instagram" style={{ fontSize: '2rem', color: '#3989f3' }}></i></a>
-                            <a href="#"><i className="bi bi-github" style={{ fontSize: '2rem', color: '#3989f3' }}></i></a>
-                            <a href="#"><i className="bi bi-linkedin" style={{ fontSize: '2rem', color: '#3989f3' }}></i></a>
-                        </div>
-
+                        <Links />
                     </div>
                 </div>
             </div>
