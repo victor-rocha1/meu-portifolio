@@ -15,7 +15,6 @@ function Header() {
               <ul>
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Especialidades</a></li>
-                <li><a href="#">Sobre</a></li>
                 <li><a href="#">Projetos</a></li>
               </ul>
             </nav>
