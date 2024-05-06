@@ -79,13 +79,35 @@ body {
     }
 
     /* Projects */
-    .img-project{
+    .img-project {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
     }
 
-    .projects .flex{
+    .projects .flex {
         gap: 60px;
     }
+
+    /* Form */
+    .form {
+        padding: 80px 8%;
+    }
+
+    .form input,
+    .form textarea {
+        font-size: 16px
+    }
+
+    /* Footer */
+    footer .flex {
+        gap: 30px;
+    }
+
+    .line-footer a {
+        display: flex;
+        text-align: center;
+    }
+
+
 }
