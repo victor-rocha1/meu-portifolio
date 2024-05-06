@@ -29,3 +29,47 @@ body {
     align-items: center;
 }
 
+
+/* Media Querry - Responsividade */
+
+/* 1020px - Laptop */
+@media screen and (max-width:1020px) {
+
+    /* Classes Gerais */
+    .flex {
+        flex-direction: column;
+    }
+
+    .titleh {
+        font-size: 1.3rem;
+    }
+
+    .titles {
+        font-size: 1.3rem;
+    }
+
+    #img-txt {
+        width: 300px;
+        height: 300px;
+        width: 100%;
+    }
+
+    /* Cabeçalho */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* About */
+    .about {
+        padding: 20px 8%;
+    }
+
+    .txt-about {
+        font-size: 20px;
+    }
+
+    .txt-about p {
+        font-size: 18px;
+    }
+}

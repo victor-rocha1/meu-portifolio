@@ -19,7 +19,7 @@ function About() {
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit unde saepe repudiandae vitae tempora. Nostrum nulla soluta a eligendi, laboriosam illo accusamus, quo dolores neque iste inventore vel sit!</p>
 
-                        <Icons icons={socialIcons} size="2.5rem" /> 
+                        <Icons icons={socialIcons} /> 
                     </div>
                 </div>
             </div>

@@ -1,21 +1,16 @@
 .icon-social {
-    color: var(--blue);
-    font-size: 100px;
-    text-decoration: none;
     display: flex;
     justify-content: flex-end;
-    gap: 30px;
     align-items: center;
+    gap: 30px;
     cursor: pointer;
     background-color: transparent;
 }
 
-
 .icon-social a {
-    color: var(--lightblue);
     font-size: 2rem;
-    text-decoration: none;
-    transition: transform 0.2s ease;
+    color: var(--blue);
+    transition: transform .2s ease;
 }
 
 .icon-social a:hover {
