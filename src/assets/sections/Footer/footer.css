@@ -1,0 +1,31 @@
+footer {
+    padding: 30px 4%;
+    box-shadow: 0 0 20px 6px var(--shadownwhite);
+}
+
+footer #logotipo {
+    width: 98px;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+.line-separator {
+    display: block;
+    height: 1px;
+    background-color: var(--blue);
+    margin: 0.5rem 0;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+.line-footer a{
+    color: var(--white);
+
+}
