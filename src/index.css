@@ -72,4 +72,20 @@ body {
     .txt-about p {
         font-size: 18px;
     }
+
+    /* Specialities */
+    .specialities {
+        padding: 40px 8%;
+    }
+
+    /* Projects */
+    .img-project{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .projects .flex{
+        gap: 60px;
+    }
 }
