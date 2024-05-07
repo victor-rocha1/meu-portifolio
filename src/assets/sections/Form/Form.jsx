@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Submit from "../../components/Button/Submit/Submit.jsx";
 import Title from "../../components/Title/Title";
-import PhoneInput from 'react-phone-number-input'
 import "./form.css";
 
 function Form() {
