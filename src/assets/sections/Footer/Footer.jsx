@@ -1,4 +1,5 @@
 import Icons from '../../components/Icons/Icons';
+import logo from '/public/images/logo.png'
 import './footer.css'
 
 function Footer() {
@@ -9,7 +10,7 @@ function Footer() {
                 <div className="line-footer">
                     <div className="flex">
                         <div className="logo-footer">
-                            <img id='logotipo' src="./public/images/logo.png" alt="Logo Victor Rocha" />
+                            <img id='logotipo' src={logo} alt="Logo Victor Rocha" />
                         </div>
                         <Icons icons={[icons[0], icons[1], icons[2]]} size="2rem" alignment="left" />
                     </div>

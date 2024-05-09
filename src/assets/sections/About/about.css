@@ -1,17 +1,24 @@
-#img-txt {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    margin-right: 30px;
-}
-
 .about {
     padding: 80px 4%;
 }
 
-.txt-about {
-    text-align: left;
-    margin-bottom: 40px;
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.img-about {
+    margin-right: 30px;
+}
+
+#img-txt {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.content {
+    flex: 1;
 }
 
 .txt-about p {
@@ -19,6 +26,6 @@
     text-align: justify;
 }
 
-.s {
-    color: var(--blue);
+.small-icons {
+    margin-top: 20px;
 }
