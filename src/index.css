@@ -33,7 +33,7 @@ body {
 /* Media Querry - Responsividade */
 
 /* 1020px - Mobile */
-@media screen and (max-width:480px) {
+@media screen and (max-width:500px) {
 
     /* Classes Gerais */
     .flex {
