@@ -41,5 +41,5 @@
 }
 .box:hover span {
     color: var(--blue);
-    font-weight: 700;
+    font-weight: 500;
 }
