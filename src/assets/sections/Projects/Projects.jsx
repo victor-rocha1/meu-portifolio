@@ -10,9 +10,12 @@ function Projects() {
             <div className="interface">
                 <Title text="MEUS " spantext="PROJETOS" />
                 <div className="flex">
-                    <ImgProject img={imgSpace} text="VRSpaceX" />
-                    <ImgProject img={imgSpace} text="VRSpaceX" />
-                    <ImgProject img={imgSpace} text="VRSpaceX" />
+                    <ImgProject 
+                    img={imgSpace} 
+                    text="VRSpaceX" 
+                    github='https://github.com/victor-rocha1/SpaceX-Bootstrap'
+                    button={true}
+                    />
                 </div>
             </div>
         </section>

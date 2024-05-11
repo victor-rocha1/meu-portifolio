@@ -1,32 +1,31 @@
-.projects{
+.projects {
     padding: 80px 4%;
     padding-bottom: 80px;
     box-shadow: 0 0 20px 6px var(--shadownwhite);
 }
 
-.projects .flex{
+.projects .flex {
     justify-content: space-around;
 }
 
-.img-project{
+.img-project {
     margin-top: 60px;
     width: 360px;
     height: 460px;
     background-color: var(--blue);
     background-size: cover;
     background-position: 100% 0%;
-    cursor: pointer;
     border-radius: 40px;
     position: relative;
 }
 
-.img-project:hover{
+.img-project:hover {
     background-position: 100% 100%;
     box-shadow: 0 0 25px var(--blue);
-    transition: background-position 8s, box-shadow 0.4s; /
+    transition: background-position 8s, box-shadow 0.4s;/
 }
 
-.overlay{
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -43,6 +42,17 @@
     transition: .5s;
 }
 
-.overlay:hover{
+.overlay:hover {
     opacity: 1;
+}
+
+.overlay button i {
+    font-size: 40px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
