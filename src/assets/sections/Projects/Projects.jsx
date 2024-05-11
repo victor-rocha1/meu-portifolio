@@ -11,7 +11,7 @@ import imgjogoDaVelha from "./images/jogodavelha.png";
 
 function Projects() {
     return (
-        <section className="projects">
+        <section className="projects" id='projects'>
             <div className="interface">
                 <Title text="MEUS " spantext="PROJETOS" />
                 <div className="flex">

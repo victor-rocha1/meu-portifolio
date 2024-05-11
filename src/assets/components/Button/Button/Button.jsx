@@ -4,7 +4,7 @@ import "./button.css";
 function Button({ children, className }) {
   return (
     <div className={`btn-contato ${className}`}>
-      <a href="#">
+      <a href="#form">
         <button>{children}</button>
       </a>
     </div>

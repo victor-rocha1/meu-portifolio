@@ -3,7 +3,7 @@ import "./specialties.css";
 
 function Specialties() {
     return (
-        <div className="specialities">
+        <section className="specialities" id="specialities">
             <section className="especialidades">
                 <div className="interface">
                     <Title text="MINHAS " spantext="ESPECIALIDADES"/>
@@ -30,7 +30,7 @@ function Specialties() {
                 </div>
             </section>
 
-        </div>
+        </section>
     )
 }
 

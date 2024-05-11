@@ -86,3 +86,7 @@ nav.menu-desktop ul li {
     left: 0;
     overflow: hidden;
 }
+
+html{
+    scroll-behavior: smooth;
+}
