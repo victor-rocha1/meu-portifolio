@@ -1,24 +1,43 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import Submit from "../../components/Button/Submit/Submit.jsx";
 import Title from "../../components/Title/Title";
 import "./form.css";
 
 function Form() {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        phone: "",
+        message: ""
+    });
 
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
     const [emailError, setEmailError] = useState(false);
 
-    const handleEmailChange = (event) => {
-        const email = event.target.value;
-        const isValid = emailRegex.test(email);
-        setEmail(email);
-        setEmailError(!isValid);
+    const handleInputChange = (event) => {
+        const { name, value } = event.target;
+        setFormData({ ...formData, [name]: value });
     }
 
-    const handleMessageChange = (event) => {
-        setMessage(event.target.value);
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        if (!validateEmail(formData.email)) {
+            setEmailError(true);
+            return;
+        }
+
+        try {
+            await axios.post('/api/send-email', formData);
+            alert('E-mail enviado com sucesso!');
+        } catch (error) {
+            console.error('Erro ao enviar e-mail:', error);
+            alert('Erro ao enviar e-mail. Por favor, tente novamente mais tarde.');
+        }
+    }
+
+    const validateEmail = (email) => {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
     }
 
     return (
@@ -26,13 +45,13 @@ function Form() {
             <div className="interface">
                 <Title text="FALE" spantext="COMIGO" />
 
-                <form onSubmit={(e) => e.preventDefault()}>
-                    <input type="text" id="name" placeholder="Seu nome:" required />
-                    <input type="email" id="email" placeholder="Seu email:" value={email} onChange={handleEmailChange} required className={emailError ? 'invalid' : ''} />
+                <form onSubmit={handleSubmit}>
+                    <input type="text" name="name" placeholder="Seu nome:" value={formData.name} onChange={handleInputChange} required />
+                    <input type="email" name="email" placeholder="Seu email:" value={formData.email} onChange={handleInputChange} required className={emailError ? 'invalid' : ''} />
                     <span className="error-message">{emailError && "Por favor, insira um email válido"}</span>
 
-                    <input type="tel" placeholder="Seu número de telefone (opcional):" />
-                    <textarea placeholder="Sua mensagem:" value={message} onChange={handleMessageChange} required></textarea>
+                    <input type="tel" name="phone" placeholder="Seu número de telefone (opcional):" value={formData.phone} onChange={handleInputChange} />
+                    <textarea name="message" placeholder="Sua mensagem:" value={formData.message} onChange={handleInputChange} required></textarea>
                     <Submit text="ENVIAR" />
                 </form>
             </div>
