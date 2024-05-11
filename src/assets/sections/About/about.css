@@ -29,3 +29,8 @@
 .small-icons {
     margin-top: 20px;
 }
+
+.blue{
+    color: var(--blue);
+    font-weight: 500;
+}
