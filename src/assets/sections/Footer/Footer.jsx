@@ -3,7 +3,12 @@ import logo from '/public/images/logo.png'
 import './footer.css'
 
 function Footer() {
-    const icons = ['instagram', 'github', 'linkedin', 'envelope-fill'];
+    const socialIcons = [
+        { name: 'instagram', link: 'https://www.instagram.com/victor-rocha924' },
+        { name: 'github', link: 'https://www.github.com/victor-rocha1' },
+        { name: 'linkedin', link: 'https://www.linkedin.com/in/victor-rocha-dos-reis-751376267/' },
+    ];
+    const contactIcon = { name: 'envelope-fill', link: 'mailto:victorrocha3202@gmail' };
     return (
         <footer>
             <div className="interface">
@@ -12,7 +17,7 @@ function Footer() {
                         <div className="logo-footer">
                             <img id='logotipo' src={logo} alt="Logo Victor Rocha" />
                         </div>
-                        <Icons icons={[icons[0], icons[1], icons[2]]} size="2rem" alignment="left" />
+                        <Icons icons={socialIcons} size="2rem" alignment="left" />
                     </div>
                 </div>
 
@@ -20,8 +25,8 @@ function Footer() {
                 <div className="line-footer">
                     <p className='line'>
                         <div className="icon-container">
-                            <Icons icons={[icons[3]]} size="2.5rem" alignment="left" />
-                            <a href="mailto:victorrocha3202@gmail">victorrocha3202@gmail</a>
+                            <Icons icons={[contactIcon]} size="2.5rem" alignment="left" />
+                            <a href={contactIcon.link}>victorrocha3202@gmail</a>
                         </div>
                     </p>
                 </div>
