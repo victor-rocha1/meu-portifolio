@@ -1,11 +1,15 @@
 import Title from "../../components/Title/Title.jsx";
 import "./specialties.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+AOS.init();
 
 function Specialties() {
     return (
         <section className="specialities" id="specialities">
-            <section className="especialidades">
-                <div className="interface">
+            <section className="especialidades" >
+                <div className="interface" >
                     <Title text="MINHAS " spantext="ESPECIALIDADES"/>
                     <div className="flex">
                         <div className="box">
