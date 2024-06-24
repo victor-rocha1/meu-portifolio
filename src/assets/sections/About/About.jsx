@@ -19,7 +19,7 @@ function About() {
           </div>
 
           <div className="content">
-            <Title text="Prazer, sou" spantext=" Victor Rocha." />
+            <Title text="PRAZER, SOU" spantext=" VICTOR ROCHA." />
             <div className="txt-about">
               <p>Sou estudante de <span className='blue'>Análise e Desenvolvimento de Sistemas</span>, apaixonado por tecnologia e programação. Atualmente, estou focando meus estudos no desenvolvimento Web, tanto no Front End quanto no Back End. Busco aprender e aprimorar minhas habilidades para construir soluções inovadoras e funcionais.</p>
               <p>Participo de diversos cursos que vão além do conhecimento passado na faculdade, onde o foco atual vem sendo o Front-End, em tecnologias como <span className='blue'>HTML5</span>,<span className='blue'> CSS3</span> usando a biblioteca <span className='blue'>React</span> do JavaScript para praticar meus conhecimentos</p>

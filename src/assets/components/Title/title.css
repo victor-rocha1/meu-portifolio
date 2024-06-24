@@ -1,7 +1,5 @@
 .titleh {
-    font-family: 'VCR OSD Mono', sans-serif;
-    font-size: 2.25rem;
-    font-weight: 400;
+    font-size: 38px;
     text-align: center;
 }
 
@@ -10,10 +8,8 @@
 }
 
 .titles {
-    font-family: 'VCR OSD Mono', sans-serif;
     color: #3989f3;
-    font-size: 2.25rem;
-    font-weight: 500;
+    font-size: 38px;
 }
 
 .btn-social{
