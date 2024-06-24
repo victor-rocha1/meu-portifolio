@@ -6,6 +6,7 @@ header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header a {
@@ -89,4 +90,42 @@ nav.menu-desktop ul li {
 
 html{
     scroll-behavior: smooth;
+}
+
+@media (max-width: 940px){
+    header>.interface {
+        justify-content: center;
+    }
+    .contato{
+        display: none;
+    }
+    .btn-open-menu i{
+        display: block;
+    }
+    nav.menu-desktop ul li {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 710px){
+    nav.menu-desktop ul li {
+        padding: 0 10px;
+    }
+
+    .btn-open-menu{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 520px){
+    nav.menu-desktop ul li {
+        padding: 0 10px;
+        display: none;
+    }
+
+    header>.interface {
+        display: flex;
+        align-items: first baseline;
+        justify-content: space-between;
+    }
 }

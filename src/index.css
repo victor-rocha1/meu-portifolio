@@ -29,148 +29,21 @@ body {
     align-items: center;
 }
 
-/* Media Querry - Responsividade */
-
-/* 500px - Mobile */
-@media screen and (max-width:500px) {
-
-    /* Classes Gerais */
-    .flex {
-        flex-direction: column;
+@media (max-width: 940px){
+    #logotipo {
+        width: 123px;
+        height: 50px;
     }
+}
 
-    .titleh {
-        font-size: 1rem;
-        padding-bottom: 15%;
-    }
-
-    .titles {
-        font-size: 1rem;
-    }
-
+@media (max-width: 940px){
     #logotipo {
         width: 98px;
         height: 40px;
     }
 
-    #img-txt {
-        width: 225px;
-        height: 225px;
-        width: 100%;
-    }
-
-    /* Cabeçalho */
-    .btn-contato {
-        display: none;
-    }
-
-    .menu-desktop a {
-        display: none;
-    }
-
-    .btn-open-menu i {
-        display: block;
-    }
-
-    /* About */
-    .about {
-        padding: 20px 8%;
-        padding-bottom: 0px;
-    }
-
-    .txt-about p,
-    .txt-about span {
-        font-size: .8rem;
-    }
-
-    .small-icons {
-        font-size: 1rem;
-    }
-
-    /* Specialities */
-    .specialities {
-        padding: 40px 4%;
-        font-size: 20px;
-    }
-
-    .specialities .box i {
-        font-size: 40px;
-    }
-
-    .box h2 {
-        font-size: 1.4rem;
-        margin: 15px 0;
-    }
-
-    .box p,
-    .box span {
-        font-size: 1rem;
-    }
-
-    .specialities .titleh {
-        font-size: 1.2rem;
-    }
-
-    .specialities .titles {
-        font-size: 1.2rem;
-    }
-
-    .specialities .box {
-        width: 100%;
-    }
-
-    /* Projects */
-    section.projects {
-        padding: 40px 4%;
-    }
-
-    section.projects .flex {
-        justify-content: center;
-    }
-
-    section.projects .titleh,
-    .titles {
-        font-size: 1.2rem;
-    }
-
-    .img-project {
-        width: 100%;
-        max-width: 360px;
-        margin: 0 auto;
-    }
-
-    .projects .flex {
-        gap: 60px;
-    }
-
-    /* Form */
-    .form {
-        padding: 80px 8%;
-    }
-
-    .form input,
-    .form textarea {
-        font-size: 16px
-    }
-
-    /* Footer */
-
-    footer .interface {
-        flex-direction: row;
-        align-items: center;
-      }
-
-    footer #logotipo {
-        width: 78px;
-        height: 32px;
-    }
-    
-    .icon-container {
-        justify-content: center;
-    }
-
-    .email-icon-container {
-        margin-top: 0;
-        align-self: flex-start;
+    .flex{
+        flex-direction: column;
     }
 }
+

@@ -48,7 +48,7 @@ function Header() {
         </nav>
 
         {/* Botão de contato que leva diretamente até a seção de formulário */}
-        <Button onClick={() => scrollToSection('form')}>Contato</Button>
+        <Button className='contato' onClick={() => scrollToSection('form')}>Contato</Button>
 
         {/* Botão para abrir o menu em dispositivos móveis */}
         <div className="btn-open-menu" onClick={toggleMenu}>
@@ -68,7 +68,7 @@ function Header() {
                 <li><a href="#start" onClick={() => scrollToSection('home')}>Início</a></li>
                 <li><a href="#specialities" onClick={() => scrollToSection('specialities')}>Especialidades</a></li>
                 <li><a href="#projects" onClick={() => scrollToSection('projects')}>Projetos</a></li>
-                <li><a href="#form" onClick={() => scrollToSection('form')}>Contato</a></li>
+                <li id='contato'><a href="#form" onClick={() => scrollToSection('form')}>Contato</a></li>
               </ul>
             </nav>
           </div>
