@@ -16,3 +16,9 @@
 .icon-social a:hover {
     transform: scale(1.2);
 }
+
+@media(max-width:510px){
+    .icon-social a {
+        font-size: 1.5rem;
+    }
+}

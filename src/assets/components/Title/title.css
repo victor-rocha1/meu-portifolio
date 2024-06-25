@@ -15,3 +15,19 @@
 .btn-social{
     display: flex;
 }
+
+@media (max-width: 510px) {
+    .titleh {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .title-left {
+        text-align: left;
+    }
+    
+    .titles {
+        color: #3989f3;
+        font-size: 20px;
+    }
+}

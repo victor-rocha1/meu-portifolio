@@ -47,3 +47,10 @@ body {
     }
 }
 
+@media (max-width: 510px) {
+    *{
+        font-size: 16px;
+    }
+}
+
+

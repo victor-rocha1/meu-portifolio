@@ -30,7 +30,42 @@
     margin-top: 20px;
 }
 
-.blue{
+.blue {
     color: var(--blue);
     font-weight: 500;
 }
+
+
+/* Responsividade */
+@media (max-width: 940px) {
+    .about {
+        padding: 80px 6%;
+    }
+
+    .img-about {
+        margin-right: 0;
+        margin-bottom: 0px;
+    }
+
+    #img-txt {
+        width: 321px;
+        height: 321px;
+    }
+}
+
+@media (max-width: 510px) {
+    .about {
+        padding: 20px 8%;
+    }
+
+    .img-about {
+        margin-right: 0;
+        margin-bottom: 0px;
+    }
+
+    #img-txt {
+        width: 234px;
+        height: 234px;
+    }
+}
+
