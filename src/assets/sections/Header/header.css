@@ -5,7 +5,7 @@ header {
     box-sizing: border-box;
 }
 
-header>.interface {
+header > .interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,8 +24,7 @@ header a:hover {
     transform: scale(1.05);
 }
 
-
-nav.menu-desktop{
+nav.menu-desktop {
     list-style: none;
     display: inline-block;
 }
@@ -47,41 +46,39 @@ nav.menu-desktop ul li {
     overflow: hidden;
 }
 
-
-.menu-mobile nav ul{
+.menu-mobile nav ul {
     text-align: right;
     list-style: none;
 }
 
-.menu-mobile nav ul a{
+.menu-mobile nav ul a {
     font-size: 20px;
     font-weight: 400;
     padding: 10px 4%;
     color: var(--white);
 }
 
-.menu-mobile nav ul a:hover{
+.menu-mobile nav ul a:hover {
     color: var(--blue);
 }
 
-.menu-mobile .btn-close{
+.menu-mobile .btn-close {
     padding: 20px 5%;
     padding-bottom: 0px;
 }
 
-.menu-mobile .btn-close i{
+.menu-mobile .btn-close i {
     color: var(--blue);
     font-size: 30px;
-    display: none; 
 }
 
-.btn-open-menu i{
+.btn-open-menu i {
     color: var(--blue);
     font-size: 40px;
     display: none;
 }
 
-.overlay-menu{
+.overlay-menu {
     background-color: #00000097;
     width: 100%;
     height: 100%;
@@ -91,18 +88,18 @@ nav.menu-desktop ul li {
     overflow: hidden;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-@media (max-width: 940px){
-    header>.interface {
+@media (max-width: 940px) {
+    header > .interface {
         justify-content: center;
     }
-    .contato{
+    .contato {
         display: none;
     }
-    .btn-open-menu i{
+    .btn-open-menu i {
         display: block;
     }
     nav.menu-desktop ul li {
@@ -110,23 +107,23 @@ html{
     }
 }
 
-@media (max-width: 710px){
+@media (max-width: 710px) {
     nav.menu-desktop ul li {
         padding: 0 10px;
     }
 
-    .btn-open-menu{
+    .btn-open-menu {
         font-size: 10px;
     }
 }
 
-@media (max-width: 520px){
+@media (max-width: 520px) {
     nav.menu-desktop ul li {
         padding: 0 10px;
         display: none;
     }
 
-    header>.interface {
+    header > .interface {
         display: flex;
         align-items: first baseline;
         justify-content: space-between;

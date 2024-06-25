@@ -9,7 +9,9 @@ footer #logotipo {
 }
 
 footer .flex {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .line-separator {
@@ -22,10 +24,27 @@ footer .flex {
 .icon-container {
     display: flex;
     align-items: center;
-    margin-right: 10px;
     gap: 10px;
 }
 
-.line-footer a{
+.line-footer a {
     color: var(--white);
+}
+
+@media (max-width: 950px) {
+    footer .flex {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    footer .logo-footer {
+        margin-bottom: 10px;
+    }
+
+    .icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
 }
