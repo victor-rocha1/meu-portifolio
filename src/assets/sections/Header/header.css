@@ -5,7 +5,7 @@ header {
     box-sizing: border-box;
 }
 
-header > .interface {
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -93,15 +93,18 @@ html {
 }
 
 @media (max-width: 940px) {
-    header > .interface {
+    header>.interface {
         justify-content: center;
     }
+
     .contato {
         display: none;
     }
+
     .btn-open-menu i {
         display: block;
     }
+
     nav.menu-desktop ul li {
         padding: 0 30px;
     }
@@ -123,9 +126,13 @@ html {
         display: none;
     }
 
-    header > .interface {
+    header>.interface {
         display: flex;
-        align-items: first baseline;
+        align-items: center;
         justify-content: space-between;
+    }
+
+    .btn-open-menu {
+        font-size: 10px;
     }
 }
