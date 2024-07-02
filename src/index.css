@@ -47,6 +47,16 @@ body {
     }
 }
 
+@media (max-width: 520px){
+    body {
+        width: 79vh;
+        height: 130vh;
+    }
+    .interface {
+        width: 400px;
+}
+}
+
 @media (max-width: 510px) {
     *{
         font-size: 16px;

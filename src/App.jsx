@@ -9,6 +9,7 @@ import './variables.css';
 function App() {
   return(
     <>
+
      <Header />
      <About />
      <Specialties />

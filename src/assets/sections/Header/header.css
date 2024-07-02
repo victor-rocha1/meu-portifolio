@@ -126,6 +126,9 @@ html {
         display: none;
     }
 
+    .menu-mobile {
+    }
+
     header>.interface {
         display: flex;
         align-items: center;
