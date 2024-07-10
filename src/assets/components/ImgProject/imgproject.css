@@ -43,6 +43,11 @@
     transition: .5s;
 }
 
+.overlay p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .overlay:hover {
     opacity: 1;
 }
